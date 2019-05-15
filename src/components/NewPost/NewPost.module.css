@@ -1,0 +1,43 @@
+.new-post {
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 20px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.new-post label {
+  display: block;
+
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.new-post input,
+.new-post textarea,
+.new-post select {
+  display: block;
+
+  width: 80%;
+  border: 1px solid #000;
+  outline: none;
+  font: inherit;
+  margin: auto;
+}
+
+.new-post button {
+  background-color: transparent;
+  border: 1px solid #fa923f;
+  color: #fa923f;
+  cursor: pointer;
+  font: inherit;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.new-post button:hover,
+.new-post button:active {
+  color: #fff;
+  background-color: #fa923f;
+}

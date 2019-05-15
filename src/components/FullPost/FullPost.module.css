@@ -1,0 +1,34 @@
+.full-post {
+  border: 1px solid #eee; 
+  margin: 20px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.edit label {
+  display: block;
+
+  color: grey;
+}
+
+.edit button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  color: #fa923f;
+}
+
+.edit button:hover,
+.edit button:active {
+  color: #521751;
+}
+
+.button--delete {
+  color: red;
+}
+
+.button--delete:hover,
+.button--delete:active {
+  color: darkred;
+}
