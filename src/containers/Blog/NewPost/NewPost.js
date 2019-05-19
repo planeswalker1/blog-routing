@@ -10,6 +10,10 @@ class NewPost extends Component {
     author: ''
   }
   
+  componentDidMount () {
+    console.log(this.props);
+  }
+
   inputChangeHandler = (event) => {
     this.setState({
       [event.target.name]: event.target.value
